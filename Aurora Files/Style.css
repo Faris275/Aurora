@@ -1,0 +1,207 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: #444;
+    background-color: #fefefe;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #2a2a72; /* Modern deep blue */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    margin-left: 20px;
+  }
+  
+  .nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    color: #fddb3a; /* Bright yellow accent */
+    border-bottom: 2px solid #fddb3a;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to bottom, #2a2a72, #009ffd); /* Vibrant gradient */
+    color: #fff;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fddb3a;
+    color: #2a2a72;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ffe76e;
+    transform: scale(1.05);
+  }
+  
+  /* Main Content */
+  .main .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2a2a72; /* Deep blue for headers */
+  }
+  
+  .post-list {
+    list-style: none;
+  }
+  
+  .post-list li {
+    margin-bottom: 10px;
+  }
+  
+  .post-list a {
+    text-decoration: none;
+    color: #009ffd; /* Bright blue for links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .post-list a:hover {
+    color: #2a2a72; /* Change to deep blue */
+  }
+  
+  /* Newsletter Section */
+  .subscribe {
+    background-color: #fddb3a; /* Bright yellow for attention */
+    color: #2a2a72;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .subscribe h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .subscribe form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .subscribe input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .subscribe button {
+    padding: 10px 20px;
+    background-color: #2a2a72;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .subscribe button:hover {
+    background-color: #4444aa; /* Slightly lighter blue */
+    transform: translateY(-2px);
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #2a2a72;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .footer ul li {
+    margin: 0 15px;
+  }
+  
+  .footer ul a {
+    color: #fddb3a; /* Yellow accent for social links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer ul a:hover {
+    color: #ffe76e; /* Lighter yellow */
+  }
+  
